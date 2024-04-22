@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A597025D2BD4CD1D008FC57B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597025C2BD4CD1D008FC57B /* AppDelegate.swift */; };
+		A597025F2BD4CD1D008FC57B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597025E2BD4CD1D008FC57B /* SceneDelegate.swift */; };
+		A59702612BD4CD1D008FC57B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59702602BD4CD1D008FC57B /* ViewController.swift */; };
+		A59702642BD4CD1D008FC57B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59702622BD4CD1D008FC57B /* Main.storyboard */; };
+		A59702662BD4CD1F008FC57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59702652BD4CD1F008FC57B /* Assets.xcassets */; };
+		A59702692BD4CD1F008FC57B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59702672BD4CD1F008FC57B /* LaunchScreen.storyboard */; };
+		A59702742BD4CD20008FC57B /* Yoda_Jedi_UiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59702732BD4CD20008FC57B /* Yoda_Jedi_UiKitTests.swift */; };
+		A597027E2BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597027D2BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests.swift */; };
+		A59702802BD4CD20008FC57B /* Yoda_Jedi_UiKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597027F2BD4CD20008FC57B /* Yoda_Jedi_UiKitUITestsLaunchTests.swift */; };
+		A597028D2BD4D379008FC57B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597028C2BD4D379008FC57B /* CustomTextField.swift */; };
+		A597028F2BD4DE68008FC57B /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597028E2BD4DE68008FC57B /* SignUpButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A59702702BD4CD20008FC57B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A59702512BD4CD1D008FC57B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59702582BD4CD1D008FC57B;
+			remoteInfo = Yoda_Jedi_UiKit;
+		};
+		A597027A2BD4CD20008FC57B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A59702512BD4CD1D008FC57B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59702582BD4CD1D008FC57B;
+			remoteInfo = Yoda_Jedi_UiKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A59702592BD4CD1D008FC57B /* Yoda_Jedi_UiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yoda_Jedi_UiKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A597025C2BD4CD1D008FC57B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A597025E2BD4CD1D008FC57B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A59702602BD4CD1D008FC57B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A59702632BD4CD1D008FC57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A59702652BD4CD1F008FC57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A59702682BD4CD1F008FC57B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A597026A2BD4CD1F008FC57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A597026F2BD4CD20008FC57B /* Yoda_Jedi_UiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yoda_Jedi_UiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59702732BD4CD20008FC57B /* Yoda_Jedi_UiKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yoda_Jedi_UiKitTests.swift; sourceTree = "<group>"; };
+		A59702792BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yoda_Jedi_UiKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A597027D2BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yoda_Jedi_UiKitUITests.swift; sourceTree = "<group>"; };
+		A597027F2BD4CD20008FC57B /* Yoda_Jedi_UiKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yoda_Jedi_UiKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A597028C2BD4D379008FC57B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A597028E2BD4DE68008FC57B /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A59702562BD4CD1D008FC57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597026C2BD4CD20008FC57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59702762BD4CD20008FC57B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A59702502BD4CD1D008FC57B = {
+			isa = PBXGroup;
+			children = (
+				A597025B2BD4CD1D008FC57B /* Yoda_Jedi_UiKit */,
+				A59702722BD4CD20008FC57B /* Yoda_Jedi_UiKitTests */,
+				A597027C2BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests */,
+				A597025A2BD4CD1D008FC57B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A597025A2BD4CD1D008FC57B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A59702592BD4CD1D008FC57B /* Yoda_Jedi_UiKit.app */,
+				A597026F2BD4CD20008FC57B /* Yoda_Jedi_UiKitTests.xctest */,
+				A59702792BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A597025B2BD4CD1D008FC57B /* Yoda_Jedi_UiKit */ = {
+			isa = PBXGroup;
+			children = (
+				A597025C2BD4CD1D008FC57B /* AppDelegate.swift */,
+				A597025E2BD4CD1D008FC57B /* SceneDelegate.swift */,
+				A59702602BD4CD1D008FC57B /* ViewController.swift */,
+				A597028E2BD4DE68008FC57B /* SignUpButton.swift */,
+				A59702622BD4CD1D008FC57B /* Main.storyboard */,
+				A597028C2BD4D379008FC57B /* CustomTextField.swift */,
+				A59702652BD4CD1F008FC57B /* Assets.xcassets */,
+				A59702672BD4CD1F008FC57B /* LaunchScreen.storyboard */,
+				A597026A2BD4CD1F008FC57B /* Info.plist */,
+			);
+			path = Yoda_Jedi_UiKit;
+			sourceTree = "<group>";
+		};
+		A59702722BD4CD20008FC57B /* Yoda_Jedi_UiKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A59702732BD4CD20008FC57B /* Yoda_Jedi_UiKitTests.swift */,
+			);
+			path = Yoda_Jedi_UiKitTests;
+			sourceTree = "<group>";
+		};
+		A597027C2BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A597027D2BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests.swift */,
+				A597027F2BD4CD20008FC57B /* Yoda_Jedi_UiKitUITestsLaunchTests.swift */,
+			);
+			path = Yoda_Jedi_UiKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A59702582BD4CD1D008FC57B /* Yoda_Jedi_UiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59702832BD4CD20008FC57B /* Build configuration list for PBXNativeTarget "Yoda_Jedi_UiKit" */;
+			buildPhases = (
+				A59702552BD4CD1D008FC57B /* Sources */,
+				A59702562BD4CD1D008FC57B /* Frameworks */,
+				A59702572BD4CD1D008FC57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yoda_Jedi_UiKit;
+			productName = Yoda_Jedi_UiKit;
+			productReference = A59702592BD4CD1D008FC57B /* Yoda_Jedi_UiKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A597026E2BD4CD20008FC57B /* Yoda_Jedi_UiKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59702862BD4CD20008FC57B /* Build configuration list for PBXNativeTarget "Yoda_Jedi_UiKitTests" */;
+			buildPhases = (
+				A597026B2BD4CD20008FC57B /* Sources */,
+				A597026C2BD4CD20008FC57B /* Frameworks */,
+				A597026D2BD4CD20008FC57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A59702712BD4CD20008FC57B /* PBXTargetDependency */,
+			);
+			name = Yoda_Jedi_UiKitTests;
+			productName = Yoda_Jedi_UiKitTests;
+			productReference = A597026F2BD4CD20008FC57B /* Yoda_Jedi_UiKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A59702782BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59702892BD4CD20008FC57B /* Build configuration list for PBXNativeTarget "Yoda_Jedi_UiKitUITests" */;
+			buildPhases = (
+				A59702752BD4CD20008FC57B /* Sources */,
+				A59702762BD4CD20008FC57B /* Frameworks */,
+				A59702772BD4CD20008FC57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A597027B2BD4CD20008FC57B /* PBXTargetDependency */,
+			);
+			name = Yoda_Jedi_UiKitUITests;
+			productName = Yoda_Jedi_UiKitUITests;
+			productReference = A59702792BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A59702512BD4CD1D008FC57B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A59702582BD4CD1D008FC57B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A597026E2BD4CD20008FC57B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A59702582BD4CD1D008FC57B;
+					};
+					A59702782BD4CD20008FC57B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A59702582BD4CD1D008FC57B;
+					};
+				};
+			};
+			buildConfigurationList = A59702542BD4CD1D008FC57B /* Build configuration list for PBXProject "Yoda_Jedi_UiKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A59702502BD4CD1D008FC57B;
+			productRefGroup = A597025A2BD4CD1D008FC57B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A59702582BD4CD1D008FC57B /* Yoda_Jedi_UiKit */,
+				A597026E2BD4CD20008FC57B /* Yoda_Jedi_UiKitTests */,
+				A59702782BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A59702572BD4CD1D008FC57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59702692BD4CD1F008FC57B /* LaunchScreen.storyboard in Resources */,
+				A59702662BD4CD1F008FC57B /* Assets.xcassets in Resources */,
+				A59702642BD4CD1D008FC57B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597026D2BD4CD20008FC57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59702772BD4CD20008FC57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A59702552BD4CD1D008FC57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A597028D2BD4D379008FC57B /* CustomTextField.swift in Sources */,
+				A59702612BD4CD1D008FC57B /* ViewController.swift in Sources */,
+				A597025D2BD4CD1D008FC57B /* AppDelegate.swift in Sources */,
+				A597025F2BD4CD1D008FC57B /* SceneDelegate.swift in Sources */,
+				A597028F2BD4DE68008FC57B /* SignUpButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597026B2BD4CD20008FC57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59702742BD4CD20008FC57B /* Yoda_Jedi_UiKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59702752BD4CD20008FC57B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59702802BD4CD20008FC57B /* Yoda_Jedi_UiKitUITestsLaunchTests.swift in Sources */,
+				A597027E2BD4CD20008FC57B /* Yoda_Jedi_UiKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A59702712BD4CD20008FC57B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A59702582BD4CD1D008FC57B /* Yoda_Jedi_UiKit */;
+			targetProxy = A59702702BD4CD20008FC57B /* PBXContainerItemProxy */;
+		};
+		A597027B2BD4CD20008FC57B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A59702582BD4CD1D008FC57B /* Yoda_Jedi_UiKit */;
+			targetProxy = A597027A2BD4CD20008FC57B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A59702622BD4CD1D008FC57B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59702632BD4CD1D008FC57B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A59702672BD4CD1F008FC57B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59702682BD4CD1F008FC57B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A59702812BD4CD20008FC57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A59702822BD4CD20008FC57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A59702842BD4CD20008FC57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yoda_Jedi_UiKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erainfotechbd.Yoda-Jedi-UiKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A59702852BD4CD20008FC57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yoda_Jedi_UiKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erainfotechbd.Yoda-Jedi-UiKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A59702872BD4CD20008FC57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erainfotechbd.Yoda-Jedi-UiKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yoda_Jedi_UiKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yoda_Jedi_UiKit";
+			};
+			name = Debug;
+		};
+		A59702882BD4CD20008FC57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erainfotechbd.Yoda-Jedi-UiKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yoda_Jedi_UiKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yoda_Jedi_UiKit";
+			};
+			name = Release;
+		};
+		A597028A2BD4CD20008FC57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erainfotechbd.Yoda-Jedi-UiKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yoda_Jedi_UiKit;
+			};
+			name = Debug;
+		};
+		A597028B2BD4CD20008FC57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erainfotechbd.Yoda-Jedi-UiKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yoda_Jedi_UiKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A59702542BD4CD1D008FC57B /* Build configuration list for PBXProject "Yoda_Jedi_UiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59702812BD4CD20008FC57B /* Debug */,
+				A59702822BD4CD20008FC57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59702832BD4CD20008FC57B /* Build configuration list for PBXNativeTarget "Yoda_Jedi_UiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59702842BD4CD20008FC57B /* Debug */,
+				A59702852BD4CD20008FC57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59702862BD4CD20008FC57B /* Build configuration list for PBXNativeTarget "Yoda_Jedi_UiKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59702872BD4CD20008FC57B /* Debug */,
+				A59702882BD4CD20008FC57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59702892BD4CD20008FC57B /* Build configuration list for PBXNativeTarget "Yoda_Jedi_UiKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A597028A2BD4CD20008FC57B /* Debug */,
+				A597028B2BD4CD20008FC57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A59702512BD4CD1D008FC57B /* Project object */;
+}

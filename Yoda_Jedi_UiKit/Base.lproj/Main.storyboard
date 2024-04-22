@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Yoda_Jedi_UiKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="7mT-kT-Fq6">
+                                <rect key="frame" x="20" y="99" width="353" height="587.33333333333337"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zpb-Z8-3g3">
+                                        <rect key="frame" x="80" y="0.0" width="193" height="81.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yoda Jedi Star" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oM-EN-ZYh">
+                                                <rect key="frame" x="1.3333333333333286" y="0.0" width="190.33333333333337" height="39"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                                <color key="textColor" red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cV9-oX-HaD">
+                                                <rect key="frame" x="65.666666666666657" y="59.000000000000007" width="62" height="22.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="6nE-kT-xBe">
+                                        <rect key="frame" x="20" y="141.33333333333337" width="313" height="345"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="smU-lO-jur">
+                                                <rect key="frame" x="0.0" y="0.0" width="313" height="41"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kLW-q6-eaO" customClass="CustomTextField" customModule="Yoda_Jedi_UiKit" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="313" height="41"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="41" id="Kys-0X-BCV"/>
+                                                            <constraint firstAttribute="height" constant="41" id="kb2-HH-av7"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <variation key="default">
+                                                            <mask key="constraints">
+                                                                <exclude reference="kb2-HH-av7"/>
+                                                            </mask>
+                                                        </variation>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="kLW-q6-eaO" secondAttribute="trailing" id="AjC-zi-0g2"/>
+                                                    <constraint firstItem="kLW-q6-eaO" firstAttribute="leading" secondItem="smU-lO-jur" secondAttribute="leading" id="kTK-my-t94"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Sz0-XI-THR">
+                                                <rect key="frame" x="0.0" y="75.999999999999972" width="313" height="41"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9hB-xk-xTi" customClass="CustomTextField" customModule="Yoda_Jedi_UiKit" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="313" height="41"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="41" id="MgB-Ee-hMD"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="9hB-xk-xTi" secondAttribute="trailing" id="Cua-hc-6kc"/>
+                                                    <constraint firstItem="9hB-xk-xTi" firstAttribute="leading" secondItem="Sz0-XI-THR" secondAttribute="leading" id="rZy-R6-W9u"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jKU-gE-qw2">
+                                                <rect key="frame" x="0.0" y="151.99999999999997" width="313" height="41"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xl1-br-LM7" customClass="CustomTextField" customModule="Yoda_Jedi_UiKit" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="313" height="41"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="41" id="ZrD-iV-WLD"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="Xl1-br-LM7" firstAttribute="leading" secondItem="jKU-gE-qw2" secondAttribute="leading" id="0ae-ti-H8e"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Xl1-br-LM7" secondAttribute="trailing" id="beN-km-ty3"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ust-nb-GpR">
+                                                <rect key="frame" x="0.0" y="227.99999999999997" width="313" height="41.000000000000028"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SHc-72-gOh" customClass="CustomTextField" customModule="Yoda_Jedi_UiKit" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="313" height="41"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="41" id="l5a-sT-OHS"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="SHc-72-gOh" firstAttribute="leading" secondItem="ust-nb-GpR" secondAttribute="leading" id="CtZ-IG-fAu"/>
+                                                    <constraint firstAttribute="trailing" secondItem="SHc-72-gOh" secondAttribute="trailing" id="kcS-DS-gCe"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="myT-Ie-wUh">
+                                                <rect key="frame" x="0.0" y="304" width="313" height="41"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UCQ-5g-96O" customClass="CustomTextField" customModule="Yoda_Jedi_UiKit" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="313" height="41"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="41" id="pxT-iD-4KG"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="UCQ-5g-96O" secondAttribute="trailing" id="9eW-0D-gE4"/>
+                                                    <constraint firstItem="UCQ-5g-96O" firstAttribute="leading" secondItem="myT-Ie-wUh" secondAttribute="leading" id="Oca-nk-fBG"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="jKU-gE-qw2" firstAttribute="leading" secondItem="6nE-kT-xBe" secondAttribute="leading" id="3Yf-PP-4pP"/>
+                                            <constraint firstAttribute="trailing" secondItem="jKU-gE-qw2" secondAttribute="trailing" id="Dnz-1E-sbN"/>
+                                            <constraint firstAttribute="trailing" secondItem="ust-nb-GpR" secondAttribute="trailing" id="Q7Z-Yu-e1w"/>
+                                            <constraint firstAttribute="trailing" secondItem="myT-Ie-wUh" secondAttribute="trailing" id="R0q-Wg-ySt"/>
+                                            <constraint firstAttribute="trailing" secondItem="Sz0-XI-THR" secondAttribute="trailing" id="RSV-T5-l5q"/>
+                                            <constraint firstItem="ust-nb-GpR" firstAttribute="leading" secondItem="6nE-kT-xBe" secondAttribute="leading" id="VAG-JL-FuJ"/>
+                                            <constraint firstItem="smU-lO-jur" firstAttribute="leading" secondItem="6nE-kT-xBe" secondAttribute="leading" id="Ygj-To-Rco"/>
+                                            <constraint firstItem="Sz0-XI-THR" firstAttribute="leading" secondItem="6nE-kT-xBe" secondAttribute="leading" id="hPw-Bu-a4A"/>
+                                            <constraint firstItem="myT-Ie-wUh" firstAttribute="leading" secondItem="6nE-kT-xBe" secondAttribute="leading" id="m55-j0-wxJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="smU-lO-jur" secondAttribute="trailing" id="nd3-dj-QMS"/>
+                                            <constraint firstAttribute="bottom" secondItem="myT-Ie-wUh" secondAttribute="bottom" id="wnb-3B-AgY"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Cax-Ee-XdP">
+                                        <rect key="frame" x="20" y="546.33333333333337" width="313" height="41"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsd-w1-b5k" customClass="SignUpButton" customModule="Yoda_Jedi_UiKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="313" height="41"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="41" id="wS8-7W-7BA"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="16"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Sign Up">
+                                                    <color key="titleColor" red="0.92549019610000005" green="0.93333333330000001" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="jsd-w1-b5k" secondAttribute="trailing" id="Glq-hi-QC4"/>
+                                            <constraint firstItem="jsd-w1-b5k" firstAttribute="leading" secondItem="Cax-Ee-XdP" secondAttribute="leading" id="qFz-yQ-tUo"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zpb-Z8-3g3" firstAttribute="top" secondItem="7mT-kT-Fq6" secondAttribute="top" id="AA6-nI-XTW"/>
+                                    <constraint firstAttribute="trailing" secondItem="6nE-kT-xBe" secondAttribute="trailing" constant="20" id="AkH-wj-kV5"/>
+                                    <constraint firstAttribute="trailing" secondItem="zpb-Z8-3g3" secondAttribute="trailing" constant="80" id="TA8-wc-lF2"/>
+                                    <constraint firstItem="6nE-kT-xBe" firstAttribute="leading" secondItem="7mT-kT-Fq6" secondAttribute="leading" constant="20" id="Ztf-eD-jk0"/>
+                                    <constraint firstItem="zpb-Z8-3g3" firstAttribute="leading" secondItem="7mT-kT-Fq6" secondAttribute="leading" constant="80" id="iev-rW-5Uf"/>
+                                    <constraint firstItem="Cax-Ee-XdP" firstAttribute="leading" secondItem="7mT-kT-Fq6" secondAttribute="leading" constant="20" id="nmr-Kr-6eY"/>
+                                    <constraint firstAttribute="trailing" secondItem="Cax-Ee-XdP" secondAttribute="trailing" constant="20" id="o30-5D-pIy"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Oq7-CS-es9">
+                                <rect key="frame" x="61" y="726.33333333333337" width="289.33333333333331" height="17.333333333333371"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Already have an account? Please sign in -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hae-3s-VWm">
+                                        <rect key="frame" x="10" y="0.0" width="269.33333333333331" height="17.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="13"/>
+                                        <color key="textColor" systemColor="systemGray2Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hae-3s-VWm" secondAttribute="trailing" constant="10" id="3UG-VO-lDb"/>
+                                    <constraint firstItem="hae-3s-VWm" firstAttribute="leading" secondItem="Oq7-CS-es9" secondAttribute="leading" constant="10" id="rPw-tQ-eDL"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7mT-kT-Fq6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="1oE-u6-F8j"/>
+                            <constraint firstItem="Oq7-CS-es9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="Kbz-Vz-TJI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Oq7-CS-es9" secondAttribute="bottom" constant="74.333333333333371" id="LlP-Mz-3jc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7mT-kT-Fq6" secondAttribute="trailing" constant="20" id="flk-0M-A2P"/>
+                            <constraint firstItem="Oq7-CS-es9" firstAttribute="top" secondItem="7mT-kT-Fq6" secondAttribute="bottom" constant="40" id="fmd-sa-UJ0"/>
+                            <constraint firstItem="7mT-kT-Fq6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="u4v-cx-oQR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
